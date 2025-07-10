@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Folder Colorizer Pro - HasniX Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #1e1e1e;
+      color: white;
+      padding: 30px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    header img {
+      width: 50px;
+      height: 50px;
+    }
+    header h1 {
+      color: #00ff99;
+      margin: 0;
+    }
+    .main-content {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .program-image {
+      flex: 1 1 300px;
+      max-width: 400px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #00ff99;
+    }
+    .program-details {
+      flex: 1 1 400px;
+      max-width: 600px;
+    }
+    .program-details h2 {
+      color: #00ff99;
+      margin-top: 0;
+    }
+    .description {
+      font-style: italic;
+      font-size: 16px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+      color: #a0a0a0;
+    }
+    .screenshots {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .screenshots img {
+      width: 120px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      box-shadow: 0 0 8px #00ff99;
+    }
+    .screenshots img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px #00ff99;
+    }
+    .buy-btn {
+      background-color: #00ff99;
+      color: black;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-block;
+    }
+    .buy-btn:hover {
+      background-color: #00cc88;
+    }
+    a.back-link {
+      color: #00ff99;
+      text-decoration: none;
+      margin-bottom: 20px;
+      display: inline-block;
+      font-size: 14px;
+    }
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="icon/logo.png" alt="HasniX Store Logo" />
+    <h1>HasniX Store</h1>
+  </header>
+
+  <a href="index.html" class="back-link">← Back to Store</a>
+
+  <div class="main-content">
+    <img src="icons/foldercolorizer.ico" alt="Folder Colorizer Icon" class="program-image" />
+
+    <div class="program-details">
+      <h2>Folder Colorizer Pro</h2>
+      <p class="description">
+        Folder Colorizer Pro helps you organize your workspace visually by coloring your folders.
+        Choose from a wide range of vibrant colors, apply custom labels, and transform your desktop into a vibrant, neat space.
+        Perfect for professionals, students, and creatives.
+      </p>
+
+      <div class="screenshots">
+        <img src="screenshots/foldercolorizer-1.png" alt="Screenshot 1" />
+        <img src="screenshots/foldercolorizer-2.png" alt="Screenshot 2" />
+        <img src="screenshots/foldercolorizer-3.png" alt="Screenshot 3" />
+        <img src="screenshots/foldercolorizer-4.png" alt="Screenshot 4" />
+        <img src="screenshots/foldercolorizer-5.png" alt="Screenshot 5" />
+      </div>
+
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=elidrissihassan773@gmail.com&item_name=Folder Colorizer Pro&amount=4.99&currency_code=USD" target="_blank" class="buy-btn">
+        Buy Now for $4.99
+      </a>
+    </div>
+  </div>
+</body>
+</html>
